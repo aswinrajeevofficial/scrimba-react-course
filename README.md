@@ -5,4 +5,5 @@ This is the index folder for the [Scrimba React Learning Path](https://scrimba.c
 ## Projects
 
 * [Project 1](./scrimba-react-project-1)
+* [Project 2](./scrimba-react-project-2)
 * More projects coming soon!
