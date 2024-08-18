@@ -1,0 +1,75 @@
+.navbar{
+    display: flex;
+    height: 100px;
+    align-items: center;
+    box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+    margin-bottom: 90px;
+    padding-left: 35px;
+}
+.navbar--logo{
+    width: 140px;
+}
+.main{
+    padding-left: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.main--image-grid{
+    max-width: 1200px;
+    width: 80rem;
+    align-self: center;
+}
+.main--title{
+    font-size: 3rem;
+    margin-top: 35px;
+    margin-bottom: 0;
+    color: #222222;
+}
+.main--description{
+    font-size: 1.5rem;
+    width: 480px;
+    color: #222222;
+}
+.cards-list{
+    padding-left: 35px;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+.card{
+    width: 225px;
+    font-size: 16px;
+    flex: 0 0 auto; 
+    display: flex;      
+    flex-direction: column;
+    position: relative;
+}
+.card--title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card--stats {
+    display: flex;
+    align-items: center;
+}
+
+.card--star {
+    height: 14px;
+}
+
+/* ADD */
+.card--price {
+    margin-top: auto;
+}
+
+.card--badge {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
